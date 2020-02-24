@@ -1,0 +1,1 @@
+I created an extra page to allow users to see the difference between the stuffings options they can choose. In order for users to receive more information on the different types of stuffing options there are, they can click "stuffing comparison." I created a page of the different stuffing options and a description of each. 
