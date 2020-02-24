@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+/*home button*/
+.hometext p {
+  font-family: "Helvetica", sans-serif;
+  font-size: 20px;
+}
+
+/*images of pillow type*/
+.img-container {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  
+}
+
+.img-container img {
+	height: 300px;
+}
+
+.pillowtype {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.img-container p {
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+}
+
+/*title*/
+h2 {
+	font-family: "Florence", cursive;
+	text-align: center;
+  font-size: 40px;
+}
+
+.bottomdots img {
+	display: block;
+	margin: auto;
+}
+
+.nexttext p {
+	text-align: right;
+	font-family: "Helvetica", sans-serif;
+  font-size: 20px;
+}

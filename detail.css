@@ -1,0 +1,67 @@
+
+.cart-image {
+	float: right;
+}
+
+/*title*/
+h2 {
+	font-family: "Florence", cursive;
+	text-align: center;
+	font-size: 40px;
+
+}
+
+/*pillow type and cost*/
+h3 {
+	font-family: "Helvetica", sans-serif;
+
+}
+
+/*image of pillow*/
+.img-container {
+  	float: left;
+  	width: 30%;
+  	padding: 5px;
+  	border-style: solid;
+  	margin: 20px 40px;
+}
+
+.left-container {
+	display: inline;
+}
+
+.right-container img {
+	width: 30%;
+	margin: 11px;
+}
+
+.right-container p {
+	font-family: "Helvetica", sans-serif;
+	padding: 6px;
+	margin: 10px;
+}
+
+.right-container {
+	height: 70vh;
+}
+
+.backtext {
+	font-family: "Helvetica", sans-serif;
+	font-size: 20px;
+}
+
+/*add to cart*/
+.add-image {
+	float: right;
+	width: 40%;
+}
+
+.bottomdots img {
+	display: block;
+	margin: auto;
+	width: 10%;
+}
+
+.stuffingcomparison {
+	font-family: "Helvetica", sans-serif; 
+}
