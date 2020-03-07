@@ -2,28 +2,52 @@
 <html>
 <head>
   <link rel = "stylesheet" type = "text/css" href = "detail.css">
+  <script src="fluffstuff.js"></script>
+  <script>
+  	function gotocart(url) {
+    window.location = url;
+	}
+  </script>
 </head>
 <body>
 
 <div class="cart-image">
-	<img src = "cart.jpg">
+	<img id="cart" src = "cart.jpg" onclick = "gotocart('shoppingcart.html')"> 
 </div>
+
+
+	
+
+
+
+<!--<div class="cart">
+	<a href=shoppingcart.html>
+	<img src="addedcart">
+	</a>
+</div>
+-->
 
 <!--left side of the page-->
 <div class="left-container">
 	<h2>2. Color and Stuffing</h2>
 	<h3>Couch Pillow $18.00</h3>
 	<div class="img-container">
-	  <img src="purplepillow.jpg" style="width:100%">
+	  <img id="changepillow" src="whitepillow.jpg" style="width:100%">
+	 
 	</div>
 </div>
 
 <!--right side of the page-->
 <div class="right-container">
 	<p>Color</p>
-	<img src="pickedcolor.jpg">
+	<img src="purple.jpg" onclick="picturechange()" id="changepillow">
+	<img src="green.jpg">
+	<img src="blue.jpg">
+	<img src="yellow.jpg">
 	<p>Stuffing</p>
-	<img src="pickedstuffing.jpg">
+	<img src="duckdown.jpg" onclick="stuffingclick()" id="changestuffing">
+	<img src="hypo.jpg">
+	<img src="memoryfoam.jpg">
 	<div class = "stuffingcomparison">
 		<a href = "stuffingcomparison.html"><p>Stuffing Comparison</p></a>
     </div>
@@ -31,12 +55,10 @@
 
 <!--add to cart-->
 <div class="add-image">
-	<img src = "newcart.jpg">
+	<img src = "newcart.jpg" onclick="addcart()" id="cart"; onclick="makenewpillow()" id="new">
 </div>
 
-<div class = "bottomdots">
-	<img src = "dots2.jpg">
-</div>
+
 
 <div class = "backtext">
 	<a href = "productchoice.html"><p>Back</p></a>
