@@ -2,15 +2,39 @@
 <html>
 <head>
 	<link rel = "stylesheet" type = "text/css" href = "index.css">
+	<script src="fluffstuff.js"></script>
+  <script>
+  	function gotocart(url) {
+    window.location = url;
+	}
+  </script>
 </head>
 <!--Title and Navigation Bar-->
 <body>
-	<h1>Fluff </br>Stuff</h1>
-	<div class = "nav">
-		<a href = "index.html"><p>Home</p></a>
-		<a href = "productchoice.html"><p>Shop</p></a>
-	</br>
+<div class="topnav">
+  <a class="active" href="#Home">Home</a>
+  <a href="productchoice.html">Pillow Types</a>
+  <a href="productdetailfinal.html">Customization</a>
+</div>
 
-	</div>
+<div class="cart-image">
+	<img id="cart" src = "cart.jpg" onclick = "gotocart('shoppingcart.html')"> 
+</div>
+
+
+
+<div style="padding-left:16px">
+</div>
+
+<h1>Fluff Stuff</h1>
+
+<div class=subtitle>
+	<p>Each pillow has its own story created by you. </p>
+	<a href = "productchoice.html"><p>Shop now.</p></a>
+</div> 
+
+
+	
 </body>
+
 </html>

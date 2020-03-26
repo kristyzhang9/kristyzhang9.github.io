@@ -3,9 +3,40 @@
 	float: right;
 }
 
+body {
+	margin: 0;
+  	font-family: American Typewriter;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #ADD8E6;
+}
+
+.topnav a {
+  float: left;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ddd;
+  color: Black;
+}
+
 /*title*/
 h2 {
-	font-family: "Florence", cursive;
+	font-family: "American Typewriter";
 	text-align: center;
 	font-size: 40px;
 
@@ -13,7 +44,9 @@ h2 {
 
 /*pillow type and cost*/
 h3 {
-	font-family: "Helvetica", sans-serif;
+	font-family: "American Typewriter";
+	text-align: center;
+	font-size: 30px;
 
 }
 
@@ -35,32 +68,34 @@ h3 {
 	margin: 11px;
 }
 
-.right-container p {
-	font-family: "Helvetica", sans-serif;
-	padding: 6px;
-	margin: 10px;
-}
+
 
 
 .right-container {
 	height: 60vh;
 }
 
+.stuffingcomparison {
+  float: right;
+}
+
+.quantity{
+  float: left;
+}
+
 .backtext {
-	font-family: "Helvetica", sans-serif;
-	font-size: 20px;
 	float: left;
+	font-size: 20px;
 }
 
 /*add to cart*/
 .add-image {
 	float: right;
-	width: 40%;
+	width:30%;
+  height: auto;
 }
 
 
 
-.stuffingcomparison {
-	font-family: "Helvetica", sans-serif; 
-}
+
 

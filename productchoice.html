@@ -3,38 +3,53 @@
 <head>
   <link rel = "stylesheet" type = "text/css" href = "choice.css">
   <script src="fluffstuff.js"></script>
+   <script>
+    function gotocart(url) {
+    window.location = url;
+  }
+  </script>
 </head>
 <body>
 
-<!--Home button-->
-<div class = "hometext">
-<a href = "index.html"><p>Home</p></a>
+ <div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="productchoice.html">Pillow Types</a>
+  <a href="productdetailfinal.html">Customization</a>
 </div>
 
+<div class="cart-image">
+  <img id="cart" src = "cart.jpg" onclick = "gotocart('shoppingcart.html')"> 
+</div>
+
+
 <!--Title-->
-<h2>1. Choose a Type</h2>
+<h2>Chapter 1: Pillow Type</h2>
+<h3> Choose a type.</h3>
 
 <!--Pillow type pictures-->
 <div class="pillowtype">
   <div class="img-container">
-  <img src="couch.jpg" style="width:100%" onclick="clickedcouch()" id="showclick">
+  <img src="couchpillow.jpg" style="width:100%" onclick="clickedcouch()" id="showclick1">
   <p>Couch Pillow</p>
-  <p>$18.00</p>
+    <br> $18.00 
   </div>
   <div class="img-container">
-  <img src="bedpillow.jpg" style="width:100%">
+  <img src="bed.jpg" style="width:100%" onclick="clickedbed()" id="showclick2">
   <p>Bed Pillow</p>
-  <p>$22.00</p>
+    <br> $20.00
+
   </div>
   <div class="img-container">
-  <img src="round.jpeg" style="width:100%">
+  <img src="round.jpg" style="width:100%" onclick="clickedround()" id="showclick3">
   <p>Round Pillow</p>
-  <p>$14.00</p>
+    <br> $16.00
+
   </div>
   <div class="img-container">
-  <img src="fluff.jpg" style="width:100%">
+  <img src="floorpouf.jpg" style="width:100%" onclick="clickedpouf()" id="showclick4">
   <p>Floor Pouf Pillow</p>
-  <p>$16.00</p>
+    <br> $14.00
+
   </div>
 </div>
 
