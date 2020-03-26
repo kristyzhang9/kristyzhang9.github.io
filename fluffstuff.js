@@ -91,7 +91,30 @@ function gotocart(url) {
     window.location = url;
 }
 
+
 /*Attempt for add to cart feature
+
+var pillow={color, stuffing, quantity}
+
+var c="color"
+localStorage.setItem("c", "purple")
+localStorage.setItem("c", "green")
+localStorage.setItem("c", "blue")
+localStorage.setItem("c", "yellow")
+
+var s="stuffing"
+localStorage.setItem("s", "memoryfoam")
+localStorage.setItem("s", "duckdown")
+localStorage.setItem("s", "hypo")
+
+var q="quantity"
+JSON.parse(localStorage.setItem("q", "1"))
+JSON.parse(localStorage.setItem("q", "2"))
+JSON.parse(localStorage.setItem("q", "3"))
+
+document.getElementByID(changepillow)=localstorage.getItem(color, stuffing, quantity)
+
+
 
 var Item=function(name, color, count){
 	this.name=name
@@ -100,7 +123,7 @@ var Item=function(name, color, count){
 }
 
 function addItemToCart(name, color, count){
-	var item=newItem(name, color, count);
+	var item=Item(name, color, count);
 	cart.push(item);
 }
 */
@@ -108,8 +131,8 @@ function addItemToCart(name, color, count){
 /*Attempt at removing items from cart
 
 var removeCartItemButtons = document.getElementsByClassName('removebutton')
-//for (var i=0; i<removeCartItemButtons.length; i++){
-	//var button = removeCartItemButtons[i]
+for (var i=0; i<removeCartItemButtons.length; i++){
+	var button = removeCartItemButtons[i]
 	button.addEventListener('click', function(event){
 		var buttonClicked = event.target
 		buttonClicked.parentElement.remove()
